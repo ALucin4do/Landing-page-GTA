@@ -1,0 +1,109 @@
+@media (max-width:1156px){
+    .cabecalho{
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a{
+        padding: 30px 15px;
+    }
+
+    .home .info{
+        padding: 50px;
+    }
+
+    .home .info img{
+        max-width: 120px;
+    }
+
+    .home .info .info-title{
+        font-size: 35px;
+    }
+
+
+        /* background-color: blue; */
+
+
+    .compra .card{
+        width: 75%;
+    }
+}
+
+@media(max-width: 915px){
+    
+    .home::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) , rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+}
+    .compra{
+        /* background-color: aqua; */
+        padding: 40px;
+    }
+    .compra .card{
+        width: 87%;
+    }
+}
+
+@media (max-width: 768px){
+
+    
+    .compra{
+        /* background-color: darkmagenta; */
+        padding: 30px ;
+    }
+
+    .compra .card{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compra .info-card-buy h3{
+        font-size: 35px;
+    }
+
+    .compra .info-card-buy .plataforms{
+        flex-direction: column;
+    }
+
+    .button-plataform{
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .button-buy{
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px){
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    } 
+
+    .cabecalho .menu li a{
+        padding: 6px;
+        /* border: #fff solid 1px; */
+    }
+
+    .home .info .info-title{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 450px){
+    .compra .card .capa-do-jogo{
+        max-width: 80%
+    }
+}
+
+@media (max-width: 350px){
+    .home .info img{
+        max-width:  100px;
+    }
+
+    .button-plataform{
+        font-size: 14px;
+    }
+
+}

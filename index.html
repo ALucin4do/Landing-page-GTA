@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Head é a tag onde ficam as configurações da pagina incluindo nome, fontes e favicon -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page GTA</title>
+    <link rel="shortcut icon" href="/src/images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/fonts.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<!-- body é onde fica a página em si -->
+<!-- dividida entre header, main e sections -->
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="./src/images/logo-rockstar.svg" alt="logo da rockstar games">
+            <hr>
+            <img src="./src/images/logo-gta-v.svg" alt="logo do gta 5">  
+        </div> 
+
+        <nav>
+            <ul class="menu">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                
+                <li>
+                    <a href="#comprar">Comprar</a>
+                </li>
+            
+                <li>
+                    <a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte 
+                        <img src="./src/images/icone-link.svg" alt="ícone indicando que esse link vai abrir 
+                        uma nova aba"> </a>
+                </li>
+            
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="home" id="home">
+           
+        <img class="background-image" src="./src/images/bg-main.png" alt="Imagem com rapaz de moletom laranja de óculos com computador ao lado de um carro esportivo amarelo no estilo GTA 
+            v">
+        <div class="info">
+
+            <div class="gamelist">
+
+                <img src="./src/images/logo-gta-v.svg" alt=" Logo GTA 5">
+                <img src="./src/images/logo-gta-online.svg" alt="Logo GTA Online">
+
+            </div>
+
+            <h1 class="info-title">Já disponíveis para Playstation 5 e XBOX Series X|S</h1>
+            <p class="info-text">Experimente os fenômenos do entreternimento Grand Theft Auto V e Online</p>
+            <a class="button-buy" href="#comprar">Compre já</a>
+
+        </div>
+
+    </main>
+
+    <section class="compra" id="comprar">
+
+        <h2 class="buy-title"> Compre já</h2>
+        <div class="card">
+
+            <img class="capa-do-jogo" src="./src/images/gta5.jpg" alt="capa do jogo gta 5">
+            <div class="info-card-buy">
+
+                <h3>Grand Theft Auto V</h3>
+                <p> 
+                    inclui <strong> modo história do GTA V</strong> e <strong>GTA Online</strong>
+                </p>
+                <ul class="plataforms"> 
+                   
+                    <li> <img src="./src/images/logo-ps5.svg" alt="logo Playstation 5"></li>
+                    <li> <img src="./src/images/logo-ps4.svg" alt="logo Playstation 4"></li>
+                    <li> <img src="/src/images/logo-xbox-series-s.svg" alt="logo Xbox Series S/X"></li>
+                    <li> <img src="./src/images/logo-xbox-one.svg" alt="logo xbox one"></li>
+                    <li> <img src="./src/images/logo-pc.svg" alt=" logo pc"></li>
+                    
+                </ul>
+
+            </div>
+             
+            <button class="button-plataform"> Selecione a plataforma
+                <ul class="plataforms ativo"> 
+                   
+                    <li> <img src="./src/images/logo-ps5.svg" alt="logo Playstation 5"></li>
+                    <li> <img src="./src/images/logo-ps4.svg" alt="logo Playstation 4"></li>
+                    <li> <img src="/src/images/logo-xbox-series-s.svg" alt="logo Xbox Series S/X"></li>
+                    <li> <img src="./src/images/logo-xbox-one.svg" alt="logo xbox one"></li>
+                    <li> <img src="./src/images/logo-pc.svg" alt=" logo pc"></li>
+                    
+                </ul>
+            </button>
+
+        </div>
+
+    </section>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+
+
+<!-- pode haver um rodapé depois do body com redes sociais e afim -->
+
+</html>
